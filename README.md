@@ -66,7 +66,7 @@ cypress/
 
 ## 🧪 Exemplos de chamadas (por método HTTP)
 
-### GET — leitura de dados
+### GET — Leitura de Dados
 
 ```js
 // Lista
@@ -90,7 +90,7 @@ cy.request('GET', '/posts?userId=1').then(({ status, body }) => {
 })
 ```
 
-### POST — criação
+### POST — Criação
 
 ```js
 cy.request({
@@ -107,7 +107,7 @@ cy.request({
 })
 ```
 
-### PUT — atualização completa
+### PUT — Atualização Completa
 
 ```js
 cy.request({
@@ -125,7 +125,7 @@ cy.request({
 })
 ```
 
-### PATCH — atualização parcial
+### PATCH — Atualização Parcial
 
 ```js
 cy.request({
@@ -140,7 +140,7 @@ cy.request({
 })
 ```
 
-### DELETE — remoção
+### DELETE — Remoção
 
 ```js
 cy.request('DELETE', '/posts/1').then(({ status }) => {
@@ -148,7 +148,7 @@ cy.request('DELETE', '/posts/1').then(({ status }) => {
 })
 ```
 
-## 📊 Pontos importantes
+## 📊 Pontos Importantes
 
 ### Status codes mais comuns
 
@@ -161,8 +161,8 @@ cy.request('DELETE', '/posts/1').then(({ status }) => {
 
 ### PUT x PATCH (bem resumido)
 
-- **PUT**: envia o recurso “inteiro” (substituição completa)
-- **PATCH**: manda só o que mudou (atualização parcial)
+- **PUT**: Envia o recurso “inteiro” (substituição completa)
+- **PATCH**: Manda só o que mudou (atualização parcial)
 
 ```js
 // PUT - manda tudo
@@ -201,7 +201,7 @@ npm run test:comments
 npm run test:users
 ```
 
-## 🌐 API usada (JSONPlaceholder)
+## 🌐 API Usada (JSONPlaceholder)
 
 - Base URL: https://jsonplaceholder.typicode.com
 
