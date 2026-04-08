@@ -1,0 +1,28 @@
+{
+  "name": "api-cypress",
+  "version": "1.0.0",
+  "description": "testes de API com Cypress usando JSONPlaceholder",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:open": "cypress open",
+    "test:posts": "cypress run --spec 'cypress/e2e/posts/**'",
+    "test:comments": "cypress run --spec 'cypress/e2e/comments/**'",
+    "test:users": "cypress run --spec 'cypress/e2e/users/**'"
+  },
+  "keywords": [
+    "cypress",
+    "api",
+    "testing",
+    "tutorial",
+    "e2e",
+    "rest",
+    "jsonplaceholder"
+  ],
+  "author": "Rafael Felipe",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cypress": "^15.13.1"
+  }
+}
